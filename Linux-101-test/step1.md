@@ -6,6 +6,6 @@ Denemek için ilk komutumuz **command**
 
 `echo 'Hello World'`{{execute}}
 
-Folderları nasıl görebiliriz?
+Folderları nasıl görebiliriz? **command**
 
-'ls' {{execute}}
+`ls` {{execute}}
