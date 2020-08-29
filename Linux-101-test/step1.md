@@ -8,4 +8,4 @@ Denemek için ilk komutumuz **command**
 
 Folderları nasıl görebiliriz? **command**
 
-`ls` {{execute}}
+`ls`{{execute}}
