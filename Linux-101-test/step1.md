@@ -21,5 +21,20 @@ Dizin boş görünüyor. Yeni bir Dizin oluşturmak ve içine girmek için; **co
 `ls`{{execute}}
 
 `cd NewFolder`{{execute}}
-** cd yazdıktan sonra "N" yazdıktan sonra <tab> tuşuna basmayı denesene :-)
+
+** cd yazdıktan sonra "N" ardından da <tab> tuşuna basmayı denesene :-)
+
+Üst dizine çıkmak ve sonrasında oluşturduğumuz dizini silmek için de; 
+
+`cd ..`{{execute}}
+
+`rmdir NewFolder`{{execute}}
+
+Bir üst dizine çıkıp yeniden ls komutunu deneyelim. Burası kök dizin. 
+
+`cd ..`{{execute}}
+
+`ls -la`{{execute}}
+
+Şimdi biraz Linux Dosya Sisteminden bahsedelim. 
 
