@@ -17,20 +17,19 @@ Peki bu komutlar karışmaya mı başladı. O halde komutların parametlerini ko
 
 Siz de deneyin farklı komutlarla. 
 
-`cat /var/log/syslog` {{execute}}
+`cat /var/log/syslog`{{execute}}
 
 Dosya kopyalamak için: **cp komutu**
 
-`cp /var/log/syslog /tmp`
-`ls /tmp`
+`cp /var/log/syslog /tmp`{{execute}}
+`ls /tmp`{{execute}}
 
 Dosya taşımak için ise: **mv komutu**
 
-`mv /tmp/syslog ./`
-`ls`
-`ls /tmp`
+`mv /tmp/syslog ./`{{execute}}
+`ls`{{execute}}
+`ls /tmp`{{execute}}
 
 Dosyayı silmek için: **rm komutu**
 
-`rm syslog`
-
+`rm syslog`{{execute}}
