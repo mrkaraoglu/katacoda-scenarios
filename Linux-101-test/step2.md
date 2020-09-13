@@ -6,5 +6,6 @@ Find komutu ile arama yapacağız**command**
 
 `find / -name *.log`{{execute}}
 
+
  
 
