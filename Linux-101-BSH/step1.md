@@ -1,6 +1,6 @@
 Linux 101 Eğitimine hoşgeldin.
 
-## Hands on Lab
+## Hands on Lab Sayfa #1
 
 Denemek için ilk komutumuz **command**
 

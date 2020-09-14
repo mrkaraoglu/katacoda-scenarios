@@ -1,21 +1,8 @@
 Kaldığımız yerden devam ediyoruz.
 
-## Hands on Lab
+## Hands on Lab Sayfa #2
 
-Find komutu ile arama yapacağız**command**
-
-`find / -name *.log`{{execute}}
-
-`find / -name *.log` |more {{execute}}
-
-Daha spesifik bir arama yapalım şimdi:
-`find / -name *.log -size +10k`{{execute}}
-
-Peki bu komutlar karışmaya mı başladı. O halde komutların parametlerini kolayca şöyle bulabilirsiniz: **man**
-
-`man find`{{execute}}
-
-Siz de deneyin farklı komutlarla. 
+Dosyanın içini okumak: 
 
 `cat /var/log/syslog`{{execute}}
 
@@ -33,3 +20,20 @@ Dosya taşımak için ise: **mv komutu**
 Dosyayı silmek için: **rm komutu**
 
 `rm syslog`{{execute}}
+
+Find komutu ile arama yapacağız**command**
+
+`find / -name *.log`{{execute}}
+
+`find / -name *.log` |more {{execute}}
+
+Daha spesifik bir arama yapalım şimdi:
+`find / -name *.log -size +10k`{{execute}}
+
+Peki bu komutlar karışmaya mı başladı. O halde komutların parametlerini kolayca şöyle bulabilirsiniz: **man**
+
+`man find`{{execute}}
+
+Siz de deneyin farklı komutlarla. 
+
+Bir sonraki sayfadan devam edelim ;-)
