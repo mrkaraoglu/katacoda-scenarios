@@ -28,7 +28,7 @@ Find komutu ile arama yapacağız**command**
 
 `find / -name *.log`{{execute}}
 
-`find / -name *.log |more` {{execute}}
+`find / -name *.log |more`{{execute}}
 
 Daha spesifik bir arama yapalım şimdi:
 
