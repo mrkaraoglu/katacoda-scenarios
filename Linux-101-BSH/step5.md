@@ -33,22 +33,32 @@ Biraz fantezi yapalım mı? Önce bir uygulama kuralım:
 Kullanıcı yetkileri için **chmod** komutu kullanılır. Bunu daha iyi anlamak için de;
 
 4: Okuma
+
 2: Yazma
+
 1: Çalıştırma (dizin için içine girebilme)
+
 sahibi-grubu-diğer kullanıcılar
+
+-rw-r--r--  1 root root    0 Sep 17 19:22 test
 
 Bir dosya oluşturalım:
 
 `touch test_file`{{execute}}
 
+`ls -la`{{execute}}
+
 Bu dosyanın yetkilerini herkese yetki verecek şekilde değiştirelim:
 
 `chmod 777 test_file`{{execute}}
+
 `ls -la`{{execute}}
 
 Sadece kullanıcısına full yetki verelim;
 
 `chmod 700 test_file`{{execute}}
+
+`ls -la`{{execute}}
 
 `chmod +x test_file`{{execute}}
 
