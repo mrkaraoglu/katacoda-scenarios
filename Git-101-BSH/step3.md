@@ -25,10 +25,15 @@ Gitmek istediğiniz branch'a geçmek için;
 Burada bir dosya oluşturalım, başka bir dosyada da değişiklik yapalım. Bu değişikliklerin master branchında olmadığını görelim;
 
 `touch yeni_dosya`{{execute}}
+
 `git add .`{{execute}}
-`git commit -m Backend dalı oluştu ve içine yeni_dosya oluşturuldu`{{execute}}
+
+`git commit -m "Backend dalı oluştu ve içine yeni_dosya oluşturuldu"`{{execute}}
+
 `git log`{{execute}}
+
 `git checkout master`{{execute}}
+
 `ls`{{execute}}
 
 Hızlı hareket etmeyi sevenler için;
@@ -36,11 +41,15 @@ Hem oluşturur, hem o branch'a geçer.
 
 `git checkout -b quickbranch`{{execute}}
 
+`git branch -a`{{execute}}
+
 Silmek için ise;
 
 `git checkout master`{{execute}}
 
 `git branch -d quickbranch`{{execute}}
+
+`git branch -a`{{execute}}
 
 İki branch arasındaki farkları görmek için;
 

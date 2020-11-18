@@ -10,15 +10,25 @@ Commit öncesi değişiklikleri de görebiliriz:
 
 `git add .`{{execute}}
 
-`git commit -m "Değişiklikler yapıldı`{{execute}}
+`git commit -m "Değişiklikler yapıldı"`{{execute}}
+
+`git log`{{execute}}
+
+Şimdi dosyamızda değişiklik yapalım.
+
+`nano newfile`{{execute}}
+
+`git status`{{execute}}
 
 Bir önceki versiyona geri dönmek için ise;
 
 `git checkout -- newfile`{{execute}}
 
+`nano newfile`{{execute}}
+
 Eğer silinen dosya varsa;
 
-`git rm newfile`{{execute}}
+`rm newfile`{{execute}}
 
 `git status`{{execute}}
 
@@ -35,7 +45,7 @@ Stage Area'dan dönmek için ise;
 
 Daha önceki versiyonlara dönmek için ise;
 
-`git log`{{execute}}
+`git log --oneline`{{execute}}
 
 `git checkout 12345678 -- .` {{execute}}
 

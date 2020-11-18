@@ -32,13 +32,13 @@ Bir dizin oluşturup o dizini git tarafından takip edilmesini sağlayalım; **c
 
 `touch newfile`{{execute}}
 
-`vim newfile`{{execute}}
+`nano newfile`{{execute}}
 
 Bu dosyamızı git içine aktaralım; 
 
 `git add .`{{execute}}
 
-`git commit -m "First File added`{{execute}}
+`git commit -m "First File added"`{{execute}}
 
 `git log`{{execute}}
 
