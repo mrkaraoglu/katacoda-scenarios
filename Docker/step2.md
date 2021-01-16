@@ -1,0 +1,31 @@
+Kaldığımız yerden devam ediyoruz.
+
+## Hands on Lab Sayfa #2
+
+Şimdi kendi paketlerimizi build edelim;
+
+O halde bir ping de atabilen Ubuntu imajı hazırlayalım. Bunun için Dockerfile dosyamıza şunu yazmalıyız:
+
+`mkdir UbuntuWPing`{{execute}}
+**command**
+
+`cd UbuntuWPing`{{execute}}
+
+`touch Dockerfile`{{execute}}
+
+`nano Dockerfile`{{execute}}
+
+Ve aşağıdakileri DOckerfile dosyasına ekleyelim.
+
+FROM ubuntu
+MAINTAINER "Emre Karaoglu"
+RUN apt update
+RUN apt install -y iputils-ping
+
+Kaydedip çıkıyoruz ve hazırladığımız Dockerfile'ı build ediyoruz;
+
+`docker build -t ubuntuwping .`{{execute}}
+
+`docker run -it ubuntuwping /bin/bash`{{execute}}
+
+Son örneğimiz için bir sonraki sayfaya geç
