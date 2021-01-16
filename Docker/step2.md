@@ -15,12 +15,16 @@ O halde bir ping de atabilen Ubuntu imajı hazırlayalım. Bunun için Dockerfil
 
 `nano Dockerfile`{{execute}}
 
-Ve aşağıdakileri DOckerfile dosyasına ekleyelim.
+Ve aşağıdakileri Dockerfile dosyasına ekleyelim.
 
-FROM ubuntu
-MAINTAINER "Emre Karaoglu"
-RUN apt update
-RUN apt install -y iputils-ping
+<pre class="file">
+    {
+        FROM ubuntu
+        MAINTAINER "Emre Karaoglu"
+        RUN apt update
+        RUN apt install -y iputils-ping
+    }
+</pre>
 
 Kaydedip çıkıyoruz ve hazırladığımız Dockerfile'ı build ediyoruz;
 
