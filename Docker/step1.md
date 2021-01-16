@@ -9,12 +9,11 @@ Ve, oyun başlasın ;-)
 Sistemimizde Docker çalışıyor mu? Hangi versiyon gibi bazı detay bilgileri almak için:
 
 `docker info`{{execute}}
-**command**
 
 `docker version`{{execute}}
 
 Sistemimizde docker çalışıyor gibi. O halde ilk containerimizi çalıştıralım. 
-Yazılımın şanındandır "Hello World" ile başlamış olalım :-) **command**
+Yazılımın şanındandır "Hello World" ile başlamış olalım :-) 
 
 `docker container run hello-world`{{execute}}
 
@@ -27,6 +26,7 @@ Yazılımın şanındandır "Hello World" ile başlamış olalım :-) **command*
 Bu containeri silmek için ise;
 
 `docker container rm`{{execute}}
+
 :-) Buraya container-id veya Container name bilgisini yazmalısınız tabi ki.
 
 Sistemimizde hangi image'lar var?
@@ -36,8 +36,6 @@ Sistemimizde hangi image'lar var?
 Ubuntu image'ını çalıştıralım
 
 `docker run ubuntu`{{execute}}
-
-**command**
 
 `docker run ubuntu ls /lib/bin`{{execute}}
 
