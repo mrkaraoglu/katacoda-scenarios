@@ -7,7 +7,6 @@ Kaldığımız yerden devam ediyoruz.
 O halde bir ping de atabilen Ubuntu imajı hazırlayalım. Bunun için Dockerfile dosyamıza şunu yazmalıyız:
 
 `mkdir UbuntuWPing`{{execute}}
-**command**
 
 `cd UbuntuWPing`{{execute}}
 

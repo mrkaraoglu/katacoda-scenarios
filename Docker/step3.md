@@ -7,7 +7,6 @@
 `cd ..`{{execute}}
 
 `mkdir WebApp`{{execute}}
-**command**
 
 `cd WebApp`{{execute}}
 
@@ -21,11 +20,16 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 Buraya bir PHP kodu yazmalıyız. Örneğin;
 
-<?php
+<pre class="file">
+    {
+        <?php
 
-echo "Hello All... It's Docker :-)"
+        echo "Hello All... It's Docker :-)"
 
-?>
+        ?>
+
+    }
+</pre>
 
 Şimdi bir üst dizinde bir Dockerfile oluşturalım;
 
@@ -35,9 +39,13 @@ echo "Hello All... It's Docker :-)"
 
 Dockerfile içine ise şunları ekleyelim;
 
-FROM php:7.3-apache
-COPY src/ /var/www/html/
-EXPOSE 80
+<pre class="file">
+    {
+        FROM php:7.3-apache
+        COPY src/ /var/www/html/
+        EXPOSE 80
+    }
+</pre>
 
 Artık Dockefile'ımızı build edebiliriz;
 
