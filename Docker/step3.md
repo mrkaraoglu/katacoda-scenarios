@@ -23,11 +23,8 @@ Buraya bir PHP kodu yazmalıyız. Örneğin;
 <pre class="file">
     {
         <?php
-
         echo "Hello All... It's Docker :-)"
-
         ?>
-
     }
 </pre>
 
