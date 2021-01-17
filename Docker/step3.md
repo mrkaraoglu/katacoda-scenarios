@@ -20,9 +20,8 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 Buraya bir PHP kodu yazmalıyız. Örneğin;
 
-<pre class="file">
+<pre class="code">
     {
-       cat index.php
 
        <?php
         echo "Hello All... It's Docker :-)";
