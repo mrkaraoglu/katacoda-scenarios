@@ -26,9 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
-  },
-  "environment": {
+    "uilayout": "editor-terminal",
     "showdashboard": true,
     "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
         {"name": "Port 80", "port": 80},
