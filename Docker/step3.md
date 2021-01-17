@@ -16,9 +16,10 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 `mkdir src ; cd src ; touch index.php`{{execute}}
 
-`touch index.php`{{execute}}
 
 Bu dosyaya bir PHP kodu yazmalıyız. Örneğin;
+
+`nano index.php`{{execute}}
 
 <pre class="highlight">
 
@@ -28,11 +29,13 @@ Bu dosyaya bir PHP kodu yazmalıyız. Örneğin;
     
 </pre>
 
+** Kopyala yapıştır yapıyorsanız ilk satırdaki boşlukları silmeyi unutmayın :-) **
+
 Şimdi bir üst dizinde bir Dockerfile oluşturalım;
 
 `cd ..`{{execute}}
 
-`nano Dockerfile`{{execute}}
+`touch Dockerfile`{{execute}}
 
 Dockerfile içine ise şunları ekleyelim;
 
