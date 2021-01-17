@@ -22,7 +22,7 @@ Bu dosyaya bir PHP kodu yazmalıyız. Örneğin;
 
 <pre class="highlight">
 
-       <?php
+       < ? php
         echo "Hello All... It's Docker :-)";
        ?>
     
