@@ -17,12 +17,12 @@ O halde bir ping de atabilen Ubuntu imajı hazırlayalım. Bunun için Dockerfil
 Ve aşağıdakileri Dockerfile dosyasına ekleyelim.
 
 <pre class="file">
-    {
+
         FROM ubuntu
         MAINTAINER "Emre Karaoglu"
         RUN apt update
         RUN apt install -y iputils-ping
-    }
+
 </pre>
 
 Kaydedip çıkıyoruz ve hazırladığımız Dockerfile'ı build ediyoruz;
@@ -30,5 +30,13 @@ Kaydedip çıkıyoruz ve hazırladığımız Dockerfile'ı build ediyoruz;
 `docker build -t ubuntuwping .`{{execute}}
 
 `docker run -it ubuntuwping /bin/bash`{{execute}}
+
+Şimdi çalışıyor mu peki ping? 
+
+`ping 8.8.8.8`{{execute}}
+
+exit ile çıkabiliriz
+
+`exit`{{execute}}
 
 Son örneğimiz için bir sonraki sayfaya geç

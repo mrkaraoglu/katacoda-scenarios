@@ -16,17 +16,16 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 `mkdir src ; cd src ; touch index.php`{{execute}}
 
-`nano index.php`{{execute}}
+`touch index.php`{{execute}}
 
-Buraya bir PHP kodu yazmalıyız. Örneğin;
+Bu dosyaya bir PHP kodu yazmalıyız. Örneğin;
 
-<pre class="file">
-    {
+<pre class="highlight">
 
-       php
+       <?php
         echo "Hello All... It's Docker :-)";
        ?>
-    }
+    
 </pre>
 
 Şimdi bir üst dizinde bir Dockerfile oluşturalım;
@@ -38,11 +37,11 @@ Buraya bir PHP kodu yazmalıyız. Örneğin;
 Dockerfile içine ise şunları ekleyelim;
 
 <pre class="file">
-    {
+
         FROM php:7.3-apache
         COPY src/ /var/www/html/
         EXPOSE 80
-    }
+    
 </pre>
 
 Artık Dockefile'ımızı build edebiliriz;

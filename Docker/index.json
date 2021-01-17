@@ -29,8 +29,8 @@
     "uilayout": "editor-terminal",
     "showdashboard": true,
     "dashboards": [
-        {"name": "WebApp Port 8080", "port": 8080},
-        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}]
+        {"name": "WebApp Port 8080", "port": 8080}
+        ]
 },
   "backend": {
     "imageid": "ubuntu1904"
