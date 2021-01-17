@@ -20,7 +20,7 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 Buraya bir PHP kodu yazmalıyız. Örneğin;
 
-<pre class="code">
+<pre class="highlight">
     {
 
        <?php
