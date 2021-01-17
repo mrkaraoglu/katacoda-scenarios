@@ -20,12 +20,12 @@ Bunu da src dizini oluşturup yapabiliriz;
 
 Buraya bir PHP kodu yazmalıyız. Örneğin;
 
-<pre class="highlight">
+<pre class="file">
     {
 
-       <?php
+       php
         echo "Hello All... It's Docker :-)";
-       ?>"
+       ?>
     }
 </pre>
 
